@@ -169,7 +169,6 @@
   <project path="external/tremolo" name="android/platform/external/tremolo" />
   <project path="external/v8" name="android/platform/external/v8" />
   <project path="external/valgrind" name="android/platform/external/valgrind"  revision="rel-roth-mp-1"/>
-  <project path="external/webkit" name="android/platform/external/webkit"  revision="rel-roth-mp-1"/>
   <project path="external/webp" name="android/platform/external/webp" />
   <project path="external/webrtc" name="android/platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="android/platform/external/wpa_supplicant_6" />
@@ -312,4 +311,7 @@
   <project path="3rdparty/trustedlogic/sdk" name="tegra/prebuilts-3rdparty-trustedlogic-sdk" />
 
   <project path="vendor/nvidia/tegra" name="tegra/prebuilts-binary-secureos-roth" />
+  <!-- This is actually a "prebuilts" repo. We copy the webkit code without
+       history. -->
+  <project path="external/webkit" name="android/platform/external/webkit-release" />
 </manifest>
