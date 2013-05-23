@@ -3,7 +3,7 @@
   <remote  name="origin"
            fetch="../.."
            review="nv-git-07.nvidia.com/r" />
-  <default revision="rel-roth-mp-1-partner"
+  <default revision="rel-roth-ota-1-partner"
            remote="origin" />
 
   <!-- BEGIN open-source projects -->
@@ -16,7 +16,7 @@
   <project path="bootable/bootloader/legacy" name="android/platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="android/platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android/platform/bootable/recovery" />
-  <project path="cts" name="android/platform/cts" revision="rel-roth-mp-1" />
+  <project path="cts" name="android/platform/cts" revision="rel-roth-ota-1" />
   <project path="dalvik" name="android/platform/dalvik" />
   <project path="development" name="android/platform/development" />
   <project path="device/common" name="android/device/common" />
@@ -40,7 +40,7 @@
   <project path="external/bsdiff" name="android/platform/external/bsdiff" />
   <project path="external/bzip2" name="android/platform/external/bzip2" />
   <project path="external/checkpolicy" name="android/platform/external/checkpolicy" />
-  <project path="external/chromium" name="android/platform/external/chromium"  revision="rel-roth-mp-1"/>
+  <project path="external/chromium" name="android/platform/external/chromium"  revision="rel-roth-ota-1"/>
   <project path="external/chromium-trace" name="android/platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="android/platform/external/cibu-fonts" />
   <project path="external/clang" name="android/platform/external/clang" />
@@ -92,7 +92,7 @@
   <project path="external/jsilver" name="android/platform/external/jsilver" />
   <project path="external/jsr305" name="android/platform/external/jsr305" />
   <project path="external/junit" name="android/platform/external/junit" />
-  <project path="external/kernel-headers" name="android/platform/external/kernel-headers"  revision="rel-roth-mp-1"/>
+  <project path="external/kernel-headers" name="android/platform/external/kernel-headers"  revision="rel-roth-ota-1"/>
   <project path="external/libcap-ng" name="android/platform/external/libcap-ng" />
   <project path="external/libffi" name="android/platform/external/libffi" />
   <project path="external/libgsm" name="android/platform/external/libgsm" />
@@ -111,7 +111,7 @@
   <project path="external/libusb" name="android/platform/external/libusb" />
   <project path="external/libusb-compat" name="android/platform/external/libusb-compat" />
   <project path="external/libvorbis" name="android/platform/external/libvorbis" />
-  <project path="external/libvpx" name="android/platform/external/libvpx"  revision="rel-roth-mp-1"/>
+  <project path="external/libvpx" name="android/platform/external/libvpx"  revision="rel-roth-ota-1"/>
   <project path="external/libxml2" name="android/platform/external/libxml2" />
   <project path="external/libxslt" name="android/platform/external/libxslt" />
   <project path="external/libyuv" name="android/platform/external/libyuv" />
@@ -168,7 +168,7 @@
   <project path="external/tinyxml2" name="android/platform/external/tinyxml2" />
   <project path="external/tremolo" name="android/platform/external/tremolo" />
   <project path="external/v8" name="android/platform/external/v8" />
-  <project path="external/valgrind" name="android/platform/external/valgrind"  revision="rel-roth-mp-1"/>
+  <project path="external/valgrind" name="android/platform/external/valgrind"  revision="rel-roth-ota-1"/>
   <project path="external/webp" name="android/platform/external/webp" />
   <project path="external/webrtc" name="android/platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="android/platform/external/wpa_supplicant_6" />
@@ -209,7 +209,7 @@
   <project path="hardware/ril" name="android/platform/hardware/ril" />
   <project path="libcore" name="android/platform/libcore" />
   <project path="libnativehelper" name="android/platform/libnativehelper" />
-  <project path="ndk" name="android/platform/ndk"  revision="rel-roth-mp-1"/>
+  <project path="ndk" name="android/platform/ndk"  revision="rel-roth-ota-1"/>
   <project path="packages/apps/BasicSmsReceiver" name="android/platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android/platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="android/platform/packages/apps/Browser" />
@@ -291,7 +291,7 @@
   <project path="sdk" name="android/platform/sdk" />
   <project path="system/bluetooth" name="android/platform/system/bluetooth" />
   <project path="system/core" name="android/platform/system/core" />
-  <project path="system/extras" name="android/platform/system/extras"  revision="rel-roth-mp-1"/>
+  <project path="system/extras" name="android/platform/system/extras"  revision="rel-roth-ota-1"/>
   <project path="system/media" name="android/platform/system/media" />
   <project path="system/netd" name="android/platform/system/netd" />
   <project path="system/security" name="android/platform/system/security" />
@@ -303,11 +303,11 @@
 
   <!-- Begin NVIDIA Repositories -->
 
-  <project path="kernel" name="linux-2.6" revision="rel-roth-mp-1"/>
+  <project path="kernel" name="linux-2.6" revision="rel-roth-ota-1"/>
 
-  <project path="device/nvidia" name="android/platform/device/nvidia"  revision="rel-roth-mp-1"/>
-  <project path="vendor/nvidia/build" name="android/platform/vendor/nvidia/build" revision="rel-roth-mp-1"/>
-  <project path="external/alsa-lib" name="android/platform/external/alsa-lib" revision="rel-roth-mp-1"/>
+  <project path="device/nvidia" name="android/platform/device/nvidia"  revision="rel-roth-ota-1"/>
+  <project path="vendor/nvidia/build" name="android/platform/vendor/nvidia/build" revision="rel-roth-ota-1"/>
+  <project path="external/alsa-lib" name="android/platform/external/alsa-lib" revision="rel-roth-ota-1"/>
   <project path="3rdparty/trustedlogic/sdk" name="tegra/prebuilts-3rdparty-trustedlogic-sdk" />
 
   <project path="vendor/nvidia/licensed-binaries" name="tegra/prebuilts-licensed-binary-secureos-roth" />
