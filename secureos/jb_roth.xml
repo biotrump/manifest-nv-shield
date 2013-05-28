@@ -305,7 +305,6 @@
 
   <project path="kernel" name="linux-2.6" revision="rel-roth-ota-1"/>
 
-  <project path="device/nvidia" name="android/platform/device/nvidia"  revision="rel-roth-ota-1"/>
   <project path="vendor/nvidia/build" name="android/platform/vendor/nvidia/build" revision="rel-roth-ota-1"/>
   <project path="external/alsa-lib" name="android/platform/external/alsa-lib" revision="rel-roth-ota-1"/>
   <project path="3rdparty/trustedlogic/sdk" name="tegra/prebuilts-3rdparty-trustedlogic-sdk" />
@@ -314,4 +313,7 @@
   <!-- This is actually a "prebuilts" repo. We copy the webkit code without
        history. -->
   <project path="external/webkit" name="android/platform/external/webkit-release" />
+  <!-- This is actually a "prebuilts" repo. We copy device/nvidia without
+       history. -->
+  <project path="device/nvidia" name="tegra/prebuilts-device-nvidia" />
 </manifest>
