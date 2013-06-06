@@ -307,7 +307,6 @@
 
   <project path="vendor/nvidia/build" name="android/platform/vendor/nvidia/build" revision="rel-roth"/>
   <project path="external/alsa-lib" name="android/platform/external/alsa-lib" revision="rel-roth"/>
-  <project path="3rdparty/trustedlogic/sdk" name="tegra/prebuilts-3rdparty-trustedlogic-sdk" />
 
   <project path="vendor/nvidia/licensed-binaries" name="tegra/prebuilts-licensed-binary-secureos-roth" />
   <!-- This is actually a "prebuilts" repo. We copy the webkit code without
