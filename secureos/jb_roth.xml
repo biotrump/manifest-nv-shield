@@ -342,6 +342,8 @@
   <project path="vendor/nvidia/build" name="android/platform/vendor/nvidia/build" revision="rel-roth"/>
   <project path="external/alsa-lib" name="android/platform/external/alsa-lib" revision="rel-roth"/>
 
+  <project path="vendor/nvidia/shieldtech/common" name="tegra/shieldtech/common" revision="rel-roth" />
+
   <project path="vendor/nvidia/licensed-binaries" name="tegra/prebuilts-licensed-binary-secureos-roth" revision="rel-roth-partner"/>
   <!-- This is actually a "prebuilts" repo. We copy the webkit code without
        history. -->
