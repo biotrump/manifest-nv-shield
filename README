@@ -11,7 +11,7 @@ http://source.android.com/source/downloading.html#installing-repo
 
 mkdir ~/shield-open-source
 cd ~/shield-open-source
-repo init -u git://nv-tegra.nvidia.com/manifest/android/binary.git -b rel-roth-partner -m secureos/jb_roth.xml
+repo init -u git://nv-tegra.nvidia.com/manifest/android/binary.git -b rel-roth-partner -m secureos/kk_roth.xml
 repo sync -j5
 
 
