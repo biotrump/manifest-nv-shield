@@ -3,7 +3,7 @@
   <remote  name="origin"
            fetch="../.."
            review="nv-git-07.nvidia.com/r" />
-  <default revision="rel-roth-jb-mr2-partner"
+  <default revision="rel-roth-r5-partner"
            remote="origin" />
 
   <!-- BEGIN open-source projects -->
@@ -16,7 +16,7 @@
   <project path="bootable/bootloader/legacy" name="android/platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="android/platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android/platform/bootable/recovery" />
-  <project path="cts" name="android/platform/cts" revision="rel-roth-jb-mr2" />
+  <project path="cts" name="android/platform/cts" revision="rel-roth-r5" />
   <project path="dalvik" name="android/platform/dalvik" />
   <project path="development" name="android/platform/development" />
   <project path="developers/build" name="android/platform/developers/build" />
@@ -36,24 +36,24 @@
   <project path="external/apache-qp" name="android/platform/external/apache-qp" />
   <project path="external/apache-xml" name="android/platform/external/apache-xml" />
   <project path="external/arduino" name="android/platform/external/arduino" />
-  <project path="external/bison" name="android/platform/external/bison" />
-  <project path="external/blktrace" name="android/platform/external/blktrace" />
+  <project path="external/bison" name="android/platform/external/bison" revision="rel-roth-r5" />
+  <project path="external/blktrace" name="android/platform/external/blktrace" revision="rel-roth-r5" />
   <project path="external/bluetooth/bluedroid" name="android/platform/external/bluetooth/bluedroid" />
   <project path="external/bouncycastle" name="android/platform/external/bouncycastle" />
   <project path="external/bsdiff" name="android/platform/external/bsdiff" />
   <project path="external/bzip2" name="android/platform/external/bzip2" />
   <project path="external/ceres-solver" name="android/platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="android/platform/external/checkpolicy" />
-  <project path="external/chromium" name="android/platform/external/chromium" revision="rel-roth-jb-mr2" />
+  <project path="external/chromium" name="android/platform/external/chromium" revision="rel-roth-r5" />
   <project path="external/chromium-trace" name="android/platform/external/chromium-trace" />
   <project path="external/clang" name="android/platform/external/clang" />
   <project path="external/compiler-rt" name="android/platform/external/compiler-rt" />
   <project path="external/dexmaker" name="android/platform/external/dexmaker" />
   <project path="external/dhcpcd" name="android/platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="android/platform/external/dnsmasq" />
+  <project path="external/dnsmasq" name="android/platform/external/dnsmasq" revision="rel-roth-r5" />
   <project path="external/doclava" name="android/platform/external/doclava" />
   <project path="external/dropbear" name="android/platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="android/platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="android/platform/external/e2fsprogs" revision="rel-roth-r5" />
   <project path="external/easymock" name="android/platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="android/platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="android/platform/external/eclipse-windowbuilder" />
@@ -68,25 +68,25 @@
   <project path="external/freetype" name="android/platform/external/freetype" />
   <project path="external/fsck_msdos" name="android/platform/external/fsck_msdos" />
   <project path="external/ganymed-ssh2" name="android/platform/external/ganymed-ssh2" />
-  <project path="external/gcc-demangle" name="android/platform/external/gcc-demangle" />
-  <project path="external/genext2fs" name="android/platform/external/genext2fs" />
+  <project path="external/gcc-demangle" name="android/platform/external/gcc-demangle" revision="rel-roth-r5" />
+  <project path="external/genext2fs" name="android/platform/external/genext2fs" revision="rel-roth-r5" />
   <project path="external/giflib" name="android/platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="android/platform/external/google-diff-match-patch" />
-  <project path="external/grub" name="android/platform/external/grub" />
+  <project path="external/grub" name="android/platform/external/grub" revision="rel-roth-r5" />
   <project path="external/gtest" name="android/platform/external/gtest" />
   <project path="external/guava" name="android/platform/external/guava" />
   <project path="external/hamcrest" name="android/platform/external/hamcrest" />
   <project path="external/harfbuzz" name="android/platform/external/harfbuzz" />
   <project path="external/harfbuzz_ng" name="android/platform/external/harfbuzz_ng" />
-  <project path="external/hyphenation" name="android/platform/external/hyphenation" />
+  <project path="external/hyphenation" name="android/platform/external/hyphenation" revision="rel-roth-r5" />
   <project path="external/icu4c" name="android/platform/external/icu4c" />
-  <project path="external/iproute2" name="android/platform/external/iproute2" />
+  <project path="external/iproute2" name="android/platform/external/iproute2" revision="rel-roth-r5" />
   <project path="external/ipsec-tools" name="android/platform/external/ipsec-tools" />
   <project path="external/iptables" name="android/platform/external/iptables" />
   <project path="external/jack" name="android/platform/external/jack" />
   <project path="external/javasqlite" name="android/platform/external/javasqlite" />
   <project path="external/javassist" name="android/platform/external/javassist" />
-  <project path="external/jdiff" name="android/platform/external/jdiff" />
+  <project path="external/jdiff" name="android/platform/external/jdiff" revision="rel-roth-r5" />
   <project path="external/jhead" name="android/platform/external/jhead" />
   <project path="external/jmdns" name="android/platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="android/platform/external/jmonkeyengine" />
@@ -94,15 +94,15 @@
   <project path="external/jsilver" name="android/platform/external/jsilver" />
   <project path="external/jsr305" name="android/platform/external/jsr305" />
   <project path="external/junit" name="android/platform/external/junit" />
-  <project path="external/kernel-headers" name="android/platform/external/kernel-headers" revision="rel-roth-jb-mr2" />
-  <project path="external/libcap-ng" name="android/platform/external/libcap-ng" />
+  <project path="external/kernel-headers" name="android/platform/external/kernel-headers" revision="rel-roth-r5" />
+  <project path="external/libcap-ng" name="android/platform/external/libcap-ng" revision="rel-roth-r5" />
   <project path="external/libffi" name="android/platform/external/libffi" />
   <project path="external/libgsm" name="android/platform/external/libgsm" />
   <project path="external/liblzf" name="android/platform/external/liblzf" />
   <project path="external/libmtp" name="android/platform/external/libmtp" />
   <project path="external/libnfc-nci" name="android/platform/external/libnfc-nci" />
   <project path="external/libnfc-nxp" name="android/platform/external/libnfc-nxp" />
-  <project path="external/libnl-headers" name="android/platform/external/libnl-headers" />
+  <project path="external/libnl-headers" name="android/platform/external/libnl-headers" revision="rel-roth-r5" />
   <project path="external/libogg" name="android/platform/external/libogg" />
   <project path="external/libpcap" name="android/platform/external/libpcap" />
   <project path="external/libphonenumber" name="android/platform/external/libphonenumber" />
@@ -114,7 +114,7 @@
   <project path="external/libusb_aah" name="android/platform/external/libusb_aah" />
   <project path="external/libusb-compat" name="android/platform/external/libusb-compat" />
   <project path="external/libvorbis" name="android/platform/external/libvorbis" />
-  <project path="external/libvpx" name="android/platform/external/libvpx" revision="rel-roth-jb-mr2" />
+  <project path="external/libvpx" name="android/platform/external/libvpx" revision="rel-roth-r5" />
   <project path="external/libxml2" name="android/platform/external/libxml2" />
   <project path="external/libxslt" name="android/platform/external/libxslt" />
   <project path="external/libyuv" name="android/platform/external/libyuv" />
@@ -144,15 +144,15 @@
   <project path="external/openfst" name="android/platform/external/openfst" />
   <project path="external/openssh" name="android/platform/external/openssh" />
   <project path="external/openssl" name="android/platform/external/openssl" />
-  <project path="external/oprofile" name="android/platform/external/oprofile" />
+  <project path="external/oprofile" name="android/platform/external/oprofile" revision="rel-roth-r5" />
   <project path="external/ping" name="android/platform/external/ping" />
   <project path="external/ping6" name="android/platform/external/ping6" />
   <project path="external/ppp" name="android/platform/external/ppp" />
   <project path="external/proguard" name="android/platform/external/proguard" />
   <project path="external/protobuf" name="android/platform/external/protobuf" />
-  <project path="external/qemu" name="android/platform/external/qemu" />
+  <project path="external/qemu" name="android/platform/external/qemu" revision="rel-roth-r5" />
   <project path="external/qemu-pc-bios" name="android/platform/external/qemu-pc-bios" />
-  <project path="external/quake" name="android/platform/external/quake" />
+  <project path="external/quake" name="android/platform/external/quake" revision="rel-roth-r5" />
   <project path="external/regex-re2" name="android/platform/external/regex-re2" />
   <project path="external/replicaisland" name="android/platform/external/replicaisland" />
   <project path="external/robolectric" name="android/platform/external/robolectric" />
@@ -178,13 +178,13 @@
   <project path="external/tinyxml2" name="android/platform/external/tinyxml2" />
   <project path="external/tremolo" name="android/platform/external/tremolo" />
   <project path="external/v8" name="android/platform/external/v8" />
-  <project path="external/valgrind" name="android/platform/external/valgrind" revision="rel-roth-jb-mr2" />
+  <project path="external/valgrind" name="android/platform/external/valgrind" revision="rel-roth-r5" />
   <project path="external/webp" name="android/platform/external/webp" />
   <project path="external/webrtc" name="android/platform/external/webrtc" />
   <project path="external/wpa_supplicant_8" name="android/platform/external/wpa_supplicant_8" />
   <project path="external/xmlwriter" name="android/platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="android/platform/external/xmp_toolkit" />
-  <project path="external/yaffs2" name="android/platform/external/yaffs2" />
+  <project path="external/yaffs2" name="android/platform/external/yaffs2" revision="rel-roth-r5" />
   <project path="external/zlib" name="android/platform/external/zlib" />
   <project path="external/zxing" name="android/platform/external/zxing" />
   <project path="frameworks/av" name="android/platform/frameworks/av" />
@@ -223,7 +223,7 @@
   <project path="hardware/ril" name="android/platform/hardware/ril" />
   <project path="libcore" name="android/platform/libcore" />
   <project path="libnativehelper" name="android/platform/libnativehelper" />
-  <project path="ndk" name="android/platform/ndk" revision="rel-roth-jb-mr2" />
+  <project path="ndk" name="android/platform/ndk" revision="rel-roth-r5" />
   <project path="packages/apps/BasicSmsReceiver" name="android/platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android/platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="android/platform/packages/apps/Browser" />
@@ -330,27 +330,27 @@
   <project path="system/security" name="android/platform/system/security" />
   <project path="system/vold" name="android/platform/system/vold" />
   <project path="tools/build" name="android/platform/tools/build"  />
-  <project path="tools/external/fat32lib" name="android/platform/tools/external/fat32lib"  />
+  <project path="tools/external/fat32lib" name="android/platform/tools/external/fat32lib" revision="rel-roth-r5" />
   <project path="tools/motodev" name="android/platform/tools/motodev" />
 
   <!-- END open-source projects -->
 
   <!-- Begin NVIDIA Repositories -->
 
-  <project path="kernel" name="linux-2.6" revision="rel-roth"/>
+  <project path="kernel" name="linux-2.6" revision="rel-roth-r5" />
 
-  <project path="vendor/nvidia/build" name="android/platform/vendor/nvidia/build" revision="rel-roth"/>
-  <project path="external/alsa-lib" name="android/platform/external/alsa-lib" revision="rel-roth"/>
-  <project path="3rdparty/intel/tbb" name="3rdparty/intel/tbb" revision="rel-roth" remote="origin" />
+  <project path="vendor/nvidia/build" name="android/platform/vendor/nvidia/build" revision="rel-roth-r5" />
+  <project path="external/alsa-lib" name="android/platform/external/alsa-lib" revision="rel-roth-r5" />
+  <project path="3rdparty/intel/tbb" name="3rdparty/intel/tbb" remote="origin" revision="rel-roth-r5" />
 
 
-  <project path="vendor/nvidia/shieldtech/common" name="tegra/shieldtech/common" revision="rel-roth" />
+  <project path="vendor/nvidia/shieldtech/common" name="tegra/shieldtech/common" revision="rel-roth-r5" />
 
-  <project path="vendor/nvidia/licensed-binaries" name="tegra/prebuilts-licensed-binary-secureos-roth" revision="rel-roth-partner"/>
+  <project path="vendor/nvidia/licensed-binaries" name="tegra/prebuilts-licensed-binary-secureos-roth"/>
   <!-- This is actually a "prebuilts" repo. We copy the webkit code without
        history. -->
-  <project path="external/webkit" name="android/platform/external/webkit-release" revision="rel-roth-partner"/>
+  <project path="external/webkit" name="android/platform/external/webkit-release"/>
   <!-- This is actually a "prebuilts" repo. We copy device/nvidia without
        history. -->
-  <project path="device/nvidia" name="tegra/prebuilts-device-nvidia" revision="rel-roth-partner"/>
+  <project path="device/nvidia" name="tegra/prebuilts-device-nvidia"/>
 </manifest>
